@@ -19,7 +19,7 @@ public class ProductTest extends TestCase {
                 20,
                 AgeRestriction.None,
                 LocalDate.now().minusDays(2));
-		assertTrue(p1.checkPice());
+		assertTrue(p1.checkPrice());
 	}
 	
 }
